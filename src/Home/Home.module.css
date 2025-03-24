@@ -1,0 +1,212 @@
+.parent
+{
+    margin-top: 30px;
+}
+.parent .image
+{
+    width: 240px;
+    position: relative;
+    height: 220px;
+}
+.image img
+{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.image button
+{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid;
+    padding: 10px 0;
+    bottom: -38px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: linear .5s;
+    -webkit-transition: linear .5s;
+    -moz-transition: linear .5s;
+    -ms-transition: linear .5s;
+    -o-transition: linear .5s;
+}
+.image button:hover
+{
+    background-color: hsl(14, 86%, 42%);
+    color: #fff;
+}
+.titles
+{
+    padding-top: 20px;
+}
+.titles h1
+{
+    font-weight: bold;
+}
+.parent p
+{
+    margin-block: -5px;
+    padding-top: 50px;
+    color: hsl(14, 25%, 72%);
+    font-size: 15px;
+}
+.parent h5
+{
+    margin-top: 15px;
+    margin-block: 10px;
+    font-size: 17px;
+}
+.parent h6
+{
+    color: hsl(14, 86%, 42%);
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text
+{
+    width: 35%;
+}
+.products
+{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media(max-width:993px)
+{
+    .flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.products
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text
+{
+    width: 100%;
+    margin-top: 50px;
+}
+}
+@media(max-width:520px)
+{
+    .products
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.parent
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.parent .image
+{
+    width: 100%;
+    position: relative;
+    height: 220px;
+    margin: auto;
+}
+.image button
+{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid;
+    padding: 10px 0;
+    bottom: -110px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: linear .5s;
+    -webkit-transition: linear .5s;
+    -moz-transition: linear .5s;
+    -ms-transition: linear .5s;
+    -o-transition: linear .5s;
+}
+.parent p
+{
+    margin-top: 75px;
+}
+}
+@media(max-width:430px)
+{
+    .image button
+{
+    bottom: -80px;
+}
+.parent p
+{
+    margin-top: 40px;
+}
+}
+@media(max-width:393px)
+{
+    .image button
+{
+    bottom: -55px;
+}
+.parent p
+{
+    margin-top: 15px;
+}
+}
+@media(max-width:376px)
+{
+    .image button
+{
+    bottom: -45px;
+}
+.parent p
+{
+    margin-top: 0px;
+}
+}
+@media(max-width:361px)
+{
+    .image button
+{
+    bottom: -33px;
+}
+.parent p
+{
+    margin-top: -5px;
+}
+}
+@media(max-width:321px)
+{
+    .image button
+{
+    bottom: -10px;
+}
+.parent p
+{
+    margin-top: -35px;
+}
+}
