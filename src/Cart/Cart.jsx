@@ -1,6 +1,6 @@
 import React from 'react'
 import cart from './Cart.module.css'
-import removeBtn from '../assets/Images/icon-remove-item.svg'
+import removeBtn from '../../public/Images/icon-remove-item.svg'
 import imgCart from '../assets/illustration-empty-cart.svg'
 const Cart = ({myCart,deleteHandle,totalSum}) => {
   return (
